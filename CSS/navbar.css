@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #6fcb9f;
+    --black-color: #161616;
+    --white-color: #eeeeee;
+  }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    z-index: 1000; 
+  }
+  
+  .press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .logo{
+    margin-left: 8%;
+  }
+  
+  .logo a {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-size: 32px;
+    word-spacing: -30%;
+    white-space: nowrap;
+    color: var(--black-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .logo a:hover{
+    color: var(--primary-color);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    font-family: "Poppins", sans-serif;
+    padding-right: 8%;
+    font-weight: 550;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 130%;
+    color: var(--black-color);
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: var(--primary-color);
+  }
+
+/* Toggle Button (Hamburger Icon) */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: var(--black-color);
+}
+  /* Mobile Styles */
+@media (max-width: 1000px) {
+  .nav-links {
+      display: none; /* Hide the links initially */
+      flex-direction: column;
+      width: 100%;
+      background-color: var(--white-color);
+      position: absolute;
+      top: 60px;
+      left: 0;
+      padding: 20px;
+  }
+
+  .nav-links.show {
+      display: flex;
+  }
+
+  .navbar {
+      padding: 1rem 2rem;
+      justify-content:center;
+      gap: 3rem;
+
+  }
+
+  .logo a{
+      font-size: 20px;
+      padding-left: 0%;
+  }
+
+  .menu-toggle {
+      display:contents;
+      cursor: pointer;
+      color: var(--black-color);
+  }
+  .menu-toggle:hover{
+    color: var(--primary-color);
+  }
+
+  .nav-links a {
+      font-size: 18px;
+      padding: 10px 0;
+  }
+  .logo a {
+    font-size: 18px; /* Smaller font size for the logo on mobile */
+  }
+}
+

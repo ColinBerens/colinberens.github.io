@@ -1,0 +1,56 @@
+[
+    {
+        "id": "TwoLeftJams",
+        "game-name-h2": "Award Winning Game: Two Left Jams",
+        "game-upperbox-text-h3": "About the game",
+        "game-upperbox-text-p": "Toast? You wanna be the best toast creater ever. Don't worry in two left jams you and your buddy will make the best pb&j toast ever. But watch out cooperation is the key, but can also destroy your toast.<br><b>You guys can be the best Sandwhich maker ever</b>",
+        "game-lowerbox-text-h3": "Experience with the GameJam",
+        "game-lowerbox-text-p": "This game jam was a crazy experience! I was part of a team of five, and we had just 2.5 days to create a game. Honestly, this one stood out as a much cooler experience because we divided the tasks efficiently. I worked on every aspect of the game. However I focused on sound, Unity integration, and team management. We did an astonishing job with scope management, which allowed us to finish the game perfectly on time with almost no bugs.",
+        "game-lowerbox-text-h3-02": "The Game Jam itself",
+        "game-lowerbox-text-p-02": "This game was made during the Howest Digital Arts And Entertainment Game Jam 2025. This game won second place in the Community Award and first place in Jury Award. The people that played our game were especially happy with the overall fun this game provides.",
+        "game-lowerbox-text-h3-teammembers": "Teammembers",
+        "Teammembers": "<b>Immanuel Claerhout <br>Emiliano Dichter <br>Arno De Cuyper <br>Anton Everaert </b>",
+        "DownloadText": "Visit Download Page",
+        "downloadlink": "https://colinberens.itch.io/twoleftjams",
+        "IMAGES": {
+            "image-01": "IMAGES/Portfolio/main_Screen.png",
+            "image-02": "IMAGES/Portfolio/boom.png"
+        }
+    },
+    {
+        "id": "Slother",
+        "game-name-h2": "My first gamejam: Slother",
+        "game-upperbox-text-h3": "About the game",
+        "game-upperbox-text-p": "Are you mad too when humans destroy our nature? If so slother is the perfect for you to take revenge with the other animals in the forest. In slother your goal is to save your tree from the illegal lumbers. You can command the other animals, such as snakes, rabits, crocodiles and skunks. Also you can hinder the illegal lumbers more by placing logs in their way to make their way harder. <br><b>The forest awaits you for your rescue.</b>",
+        "game-lowerbox-text-h3-02": "Experience with the GameJam",
+        "game-lowerbox-text-p-02": "This gamejam was my first gamejam. It was hosted by my school and you had to make a group of 3 people. The biggest challenge was that we had to split up the tasks to work efficiently. My task was the coding for the tower shooting, the pixel art and animation. After a while we noticed that we clearly overscoped our project. Our solusion was to make scrap some ideas and focus on the raw core mechanics. In the end it is impressive what we managed to achieve in just 2 days.",
+        "game-lowerbox-text-h3": "Decide your fate",
+        "game-lowerbox-text-p": "The keyfeature is that you can design your own map by using the logs and stones so the game plays different each time. It is also necessary to do that.",
+        "game-lowerbox-text-h3-teammembers": "Teammembers",
+        "Teammembers": "<b>Immanuel Claerhout <br>Emiliano Dichter</b>",
+        "DownloadText": "Visit Download Page",
+        "downloadlink": "https://moonipuss.itch.io/slother",
+        "IMAGES": {
+            "image-01": "IMAGES/Sprite/sprite.png",
+            "image-02": "IMAGES/SnH+uH.png"
+        }
+    },
+    {
+        "id": "Fastnetic",
+        "game-name-h2": "Solo Project: Fastnetic",
+        "game-upperbox-text-h3": "About the game",
+        "game-upperbox-text-p": "The Year is 2039ATL in the world of gespa. You are ordered to investigate the ruins of the lost city of Tolona. However, while your doing your research the 'Unterdrücker', a powerful machine that lets you explore the city colapses into a BLackhole. <b>Escape the lost city of Tolona before a black hole consumes you and the buildings.</b>",
+        "game-lowerbox-text-h3": "How I made the game",
+        "game-lowerbox-text-p": "Before making the game I got themes to make a game. For the game I made entire brainstorm process in miro with different concepts. Then I worked out 5 of the ideas on paper. After getting feedback I chose 3 concepts and made a proof of concept in Unity. I chose then the best what later became Fastnetic. I made a iterative process to refine the gameplay and the I started production",
+        "game-lowerbox-text-h3-02": "Production Process",
+        "game-lowerbox-text-p-02": "The game was made by using the Unity 2D engine. I used pre rendered sprites by modeling in Blender. I made simple textures in Substance Painter. Additionaly the animations are also made in Blender ",
+        "game-lowerbox-text-h3-03": "Download Game Design Document",
+        "additional-downloads": "<a href='example.pdf' download class='download-btn'><a href='DOWNLOADABLE/GameDesignDocument.pdf' download='GameDesignDocument.pdf' class='download-button'><i class='fas fa-download'></i><b>Download GGD</b></a>",
+        "DownloadText": "Visit Download Page",
+        "downloadlink": "https://colinberens.itch.io/fastnetic",
+        "IMAGES": {
+            "image-02": "IMAGES/Fastnetic.png",
+            "image-01": "IMAGES/Fastnetic-Character.png"
+        }
+    }
+]

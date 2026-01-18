@@ -1,0 +1,417 @@
+  .TwoLeftJams{
+    padding-top: 4%;
+    color: var(--white-color);
+    align-items: flex-start; /* Aligns items to the top */
+  }
+  .TwoLeftJams h2{
+    letter-spacing: -5%;
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+  }
+  .TwoLeftJams-upperbox{
+    display: flex;
+    gap: 6.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--second-color); /* Replace with your image path */
+    background-size: 100rem 70rem;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .TwoLeftJams-upperbox-text h3 {
+    color: var(--black-color);
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -3%;
+  
+  }
+  .TwoLeftJams-upperbox-text p {
+    color: var(--black-color);
+    padding-left: 2rem;
+    padding-top: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    letter-spacing: 3%;
+  
+  }
+  .TwoLeftJams-upperbox img {
+    width:104%; /* Adjust as needed for balance */
+    height: 2%;
+    padding-right: 2.75rem;
+  }
+  .TwoLeftJams-lowerbox li {
+    padding-bottom: 0.25rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--second-color);
+    font-size: 1.25rem;
+  }
+  .TwoLeftJams-lowerbox li a {
+    color: var(--second-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .TwoLeftJams-lowerbox li a:hover {
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  .TwoLeftJams-lowerbox{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    color: var(--white-color);
+    background-color: var(--black-color); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .TwoLeftJams-lowerbox img {
+    width: 55%; /* Adjust as needed for balance */
+    height: 2%;
+    padding-right: 2.75rem;
+  
+  }
+  .TwoLeftJams-lowerbox-text {
+    flex: 1; /* Allow text to take up available space */
+  }
+  .TwoLeftJams-lowerbox-text h2{
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+  }
+  .TwoLeftJams-lowerbox-text h3{
+    letter-spacing: -5%;
+  }
+  .TwoLeftJams-lowerbox-text p{
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 3%;
+  }
+
+
+
+  .Fastnetic{
+    padding-top: 4%;
+    color: var(--white-color);
+    align-items: flex-start; /* Aligns items to the top */
+  }
+  .Fastnetic h2{
+    letter-spacing: -5%;
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+  }
+  .Fastnetic-upperbox{
+    display: flex;
+    gap: 20.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--second-color); /* Replace with your image path */
+    background-size: 100rem 70rem;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .Fastnetic-upperbox-text h3 {
+    color: var(--black-color);
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -3%;
+  
+  }
+  .Fastnetic-upperbox-text p {
+    color: var(--black-color);
+    padding-left: 2rem;
+    padding-top: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    letter-spacing: 3%;
+  
+  }
+  .Fastnetic-upperbox img {
+    width:50%; /* Adjust as needed for balance */
+    height: 2%;
+    padding-right: 2.25rem;
+  }
+  .Fastnetic-lowerbox li {
+    padding-bottom: 0.25rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--second-color);
+    font-size: 1.25rem;
+  }
+  .Fastnetic-lowerbox li a {
+    color: var(--second-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .Fastnetic-lowerbox li a:hover {
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  .Fastnetic-lowerbox{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    color: var(--white-color);
+    background-color: var(--black-color); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .Fastnetic-lowerbox img {
+    width: 25%; /* Adjust as needed for balance */
+    height: 15%;
+    padding-right: 2.75rem;
+    image-rendering: crisp-edges;
+  }
+  .Fastnetic-lowerbox-text {
+    flex: 1; /* Allow text to take up available space */
+  }
+  .Fastnetic-lowerbox-text h2{
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+  }
+  .Fastnetic-lowerbox-text h3{
+    letter-spacing: -5%;
+  }
+  .Fastnetic-lowerbox-text p{
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 3%;
+  }
+
+
+
+
+
+  .Teammembers{
+    color: var(--second-color);
+    font-size: 1.25rem;
+  }
+  
+  .slother {
+    padding-top: 4%;
+    color: var(--white-color);
+    align-items: flex-start; /* Aligns items to the top */
+  }
+  .slother h2
+  {
+    letter-spacing: -5%;
+    font-size: 4rem;
+    padding-bottom: 2.5rem;
+  }
+  .slotherAboutGame {
+    display: flex;
+    gap: 6.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--second-color); /* Replace with your image path */
+    background-size: 100rem 70rem;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .slotherAboutGame-text h3 {
+    color: var(--black-color);
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -3%;
+  
+  }
+  
+  .slotherAboutGame-text p {
+    color: var(--black-color);
+    padding-left: 2rem;
+    padding-top: 1.25rem;
+    line-height: 1.75rem;
+    margin-top: 0;
+    letter-spacing: 3%;
+  
+  }
+  
+  .slotherAboutGame img {
+    width: 60%; /* Smaller size */
+    height: 20%; /* Maintain aspect ratio */
+    image-rendering: crisp-edges;
+    padding-right: 2.75rem;
+  }
+  .SlotherSpecifics{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    gap: 2rem;
+    color: var(--white-color);
+    background-color: var(--black-color); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  .SlotherSpecifics img {
+    width: 55%; /* Adjust as needed for balance */
+    height: 2%;
+    padding-right: 2.75rem;
+  
+  }
+  .Slother-text-content {
+    flex: 1; /* Allow text to take up available space */
+  }
+  .Slother-text-content h2{
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+  }
+  .Slother-text-content h3{
+    letter-spacing: -5%;
+  }
+  .Slother-text-content p{
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 3%;
+  }
+  .Slother-text-content li{
+    padding-bottom: 0.25rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--second-color);
+    font-size: 1.25rem;
+
+  }
+  .Slother-text-content li a {
+    color: var(--second-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  
+  .Slother-text-content li a:hover {
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  #DownloadText{
+    padding-top: 1.25rem;
+  }
+  
+  
+  
+  .MantaSeas{
+    padding-top: 4rem;
+    color: var(--white-color);
+    gap: 2rem;
+  }
+  .MantaSeas h2{
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+    font-size: 4rem;
+  }
+  .MantaSeas-content{
+    display: flex;
+    background-color: var(--second-color);
+    color: var(--black-color);
+    gap: 2rem;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+  }
+  .MantaSeas-text-content h3{
+    letter-spacing: -3%;
+  }
+  .MantaSeas-text-content p{
+    padding-top: 1.25rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.75rem;
+    letter-spacing: 3%;
+    padding-right: 2rem;
+  }
+  .MantaSeas img{
+    width: 40rem; /* Adjust as needed for balance */
+    height: auto;
+    object-fit: cover;
+  }
+  .MantaSeas-text-content li, .MantaSeas-text-content a{
+    padding-top: 0.25rem;
+    font-size: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: var(--primary-color);
+  }
+  .MantaSeas-text-content li a {
+    color: var(--primary-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .MantaSeas-text-content li a:hover {
+    color: var(--black-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  @media (max-width: 1000px) {
+    .TwoLeftJams-upperbox{
+      display: block;
+      padding-right: 2rem;
+    }
+    .TwoLeftJams-upperbox img{
+      display: block;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+    .TwoLeftJams-lowerbox{
+      display: block;
+      padding-right: 2rem;
+    }
+    .TwoLeftJams-lowerbox img{
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      margin-bottom: 2rem;
+    };
+    .TwoLeftJams-lowerbox-text{
+      display: block;
+      padding-right: 2rem;
+    }
+    .TwoLeftJams-lowerbox-text img{
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      margin-bottom: 2rem;
+    };
+    .TwoLeftJams-lowerbox-text h2{
+      font-size: 2rem;
+    }
+    .slotherAboutGame{
+      display: block;
+      padding-right: 2rem;
+    }
+    .slotherAboutGame img{
+      display: block;
+      margin: 0 auto;
+      margin-top: 3rem;
+    }
+    .SlotherSpecifics {
+      display: block;
+      padding-right: 2rem;
+    }
+    .SlotherSpecifics img{
+      display: block;
+      margin: 0 auto;
+      margin-top: 3rem;
+      width: 115%;
+    }
+    .MantaSeas-content{
+      display: block;
+      padding-right: 2rem;
+    }
+    .MantaSeas-content img{
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      margin-bottom: 2rem;
+    };
+    .MantaSeas h2{
+      font-size: 2rem;
+
+    }
+    .slother h2{
+      font-size: 2rem;
+
+    }
+  }

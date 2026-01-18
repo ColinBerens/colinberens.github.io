@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #6fcb9f;
+    --black-color: #161616;
+    --white-color: #8b8b8b;
+    --second-color: #ffe28a;
+    --gray-color: #cecece;
+  }
+.content{
+    margin-top: 10rem;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+.AboutMe{
+    z-index: 1; /* Keep the main content above the background image */
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative
+}
+
+.AboutMe-content p{
+    font-size: 150%;
+    line-height: 2.5rem;
+}
+.AboutMe-content h1{
+    font-size: 250%;
+    font-family: "Press Start 2P", sans-serif;
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+}
+.AboutMe img{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+.AboutMe a {
+    color: var(--black-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+    line-height: 3.5rem;
+    font-size: 200%;
+    margin-top: 20rem;
+    font-weight: 600;
+  }
+  .AboutMe a:hover{
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+.interests{
+    background-image: url('../IMAGES/Background1.png') ;
+    color: var(--gray-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.interests h2{
+    font-size: 230%;
+    font-family: "Press Start 2P", sans-serif;
+    padding-bottom: 2.5rem;
+    letter-spacing: -3%;
+}
+.interests p{
+    font-size: 130%;
+    line-height: 2.5rem;
+}
+@media (max-width: 1000px) {
+    .AboutMe{
+        display: block;
+    }
+    .AboutMe img{
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .AboutMe-content p{
+        font-size: 100%;
+        line-height: 1.75rem;
+    }
+    .AboutMe-content h1{
+        font-size: 200%;
+        font-family: "Press Start 2P", sans-serif;
+        padding-bottom: 1.25rem;
+        letter-spacing: -3%;
+    }
+    .interests h2{
+        font-size: 180%;
+        padding-bottom: 1.25rem;
+        letter-spacing: -3%;
+    }
+    .interests p{
+        font-size: 80%;
+        line-height: 1.5rem;
+        padding: 1rem, 1rem;
+    }
+}

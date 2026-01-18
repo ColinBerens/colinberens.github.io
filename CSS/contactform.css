@@ -1,0 +1,211 @@
+*{
+  image-rendering: optimizeSpeed;
+}
+.ContactPage{
+    padding-top: 5%;
+    font-family: "Poppins", sans-serif;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: var(--white-color); 
+    overflow: hidden; /* Prevent overflow */
+  }
+
+  .ContactPage h1{
+    font-family: "Press Start 2P", sans-serif;
+    color: var(--primary-color);
+    letter-spacing: -5%;
+    font-size: 2rem;
+  }
+  #LetsConnect{
+    padding-top: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .contact{
+    display: flex;
+    padding-top: 2.5rem;
+    justify-content: space-between; 
+    gap: 2rem; 
+  }
+  .ContactPage h2{
+    padding-bottom:  2.5rem;
+  
+  }
+  .Instagram{
+    display: flex;
+    gap: 2.5rem;
+  }
+  .Instagram img{
+    width: var(--socialMediaPictures-size); /* Adjust as needed for balance */
+    height: auto;
+    padding-left: 2rem;
+    object-fit: contain;
+  }
+  .Instagram-content p{
+    padding-top: 0.25rem;
+  }
+  .Instagram-content li{
+    padding-top: 0.25rem;
+  }
+  .Instagram-content li a{
+    color: var(--primary-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .LinkedIn {
+    padding-top:  2.5rem;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .LinkedIn img{
+    width: var(--socialMediaPictures-size);/* Adjust as needed for balance */
+    height: auto;
+    padding-left: 2rem;
+    object-fit: contain;
+  }
+  .LinkedIn-content li{
+    padding-top: 0.25rem;
+  }
+  .LinkedIn-content li a{
+    color: var(--primary-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .LinkedIn-content li a:hover{
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  .Email{
+    padding-top:  2.5rem;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .Email img{
+    width: var(--socialMediaPictures-size);/* Adjust as needed for balance */
+    height: auto;
+    padding-left: 2rem;
+    object-fit: contain;
+  }
+  .Email-content p{
+    padding-top: 0.25rem;
+  }
+  .github {
+    padding-top: 2.5rem;
+    display: flex;
+    gap: 2.5rem;
+  }
+  .github img{
+    width: var(--socialMediaPictures-size);/* Adjust as needed for balance */
+    height: auto;
+    padding-left: 2rem;
+    object-fit: contain;
+  }
+  .github-content li{
+    padding-top: 0.25rem;
+  }
+  .github-content li a{
+    color: var(--primary-color);
+    text-decoration: none; /* Remove underline if desired */
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  }
+  .github-content li a:hover{
+    color: var(--white-color); /* Change color on hover for effect */
+    text-decoration: underline; /* Add underline on hover if desired */
+  }
+  .SocialMedia{
+    flex: 1 1 10%; /* Takes up 45% of the container width but can shrink */
+  }
+  .SendEmail{
+    margin-right: 10rem;
+    background-color: var(--primary-color);
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: var(--black-color);
+  }
+  .SendEmail h2 {
+    padding-bottom:  2.5rem;
+    width: 15rem;
+  }
+  .SendEmail label{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .SendEmail input{
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+    size: 10rem;
+    border: none;
+  }
+  .SendEmail button{
+    margin-top: 2.5rem;
+    color: var(--black-color);
+    background-image: url('../IMAGES/Button4.png'); /* Add your PNG image */
+    background-size: cover; /* Ensure the image covers the entire button */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image within the button */
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 100%;
+    padding: 3% 2%;
+    padding-left: 5%;
+    border: none;
+    align-self: flex-start; /* Aligns the button with the start of the text */
+    cursor: pointer;
+    width: 60%; /* Adjust width to match the image's dimensions */
+    height: 20%;
+    text-align: center; /* Center the text inside the button */
+    transition: background-image 1s ease-in-out;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  .SendEmail button:hover{
+    background-image: url('../IMAGES/Button4OnHover.png'); /* Add your PNG image */
+    margin-left: 1%;
+    outline: 2px solid #ffffff; /* White outline */
+    outline-offset: 2px;
+  }
+  textarea {
+    width: 20rem;
+    height: 8rem;
+    max-width: 20rem;
+    min-width: 20rem;
+    max-height: 10rem;
+    resize: both;
+  }
+  @media (max-width: 1000px) {
+    .contact{
+      display: block;
+    }
+    .SendEmail{
+      margin-top: 2rem;
+      margin-right: 0rem;
+    }
+    textarea {
+      width: 18rem;
+      height: 8rem;
+      max-width: 18rem;
+      min-width: 10rem;
+      max-height: 10rem;
+      resize: both;
+    }
+    .SendEmail button{
+      width: 15rem;
+    }
+    .Email img{
+      width: 20%;
+    } 
+    .Instagram img{
+      width: 20%;
+
+    }
+    .LinkedIn img{
+      width: 20%;
+
+    }
+    .github img{
+      width: 20%;
+
+    }
+  }

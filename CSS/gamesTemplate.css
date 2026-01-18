@@ -1,0 +1,178 @@
+.game-name {
+  padding-top: 4%;
+  color: var(--white-color);
+  align-items: flex-start;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
+}
+
+.game-name h2 {
+  letter-spacing: -5%;
+  font-size: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+.game-upperbox {
+  display: flex;
+  gap: 6.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  background-color: var(--second-color);
+  background-size: 100rem 70rem;
+  background-repeat: no-repeat;
+}
+
+.game-upperbox-text h3 {
+  color: var(--black-color);
+  padding-left: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: -3%;
+}
+
+.game-upperbox-text p {
+  color: var(--black-color);
+  padding-left: 2rem;
+  padding-top: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0;
+  letter-spacing: 3%;
+}
+
+.game-upperbox img {
+  width: 104%;
+  height: 2%;
+  padding-right: 2.75rem;
+}
+
+.game-lowerbox li {
+  padding-bottom: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--second-color);
+  font-size: 1.25rem;
+}
+
+.game-lowerbox li a {
+  color: var(--second-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+
+.game-lowerbox li a:hover {
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+.game-lowerbox {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.game-lowerbox img {
+  width: 55%;
+  height: 2%;
+  padding-right: 2.75rem;
+}
+
+.game-lowerbox-text {
+  flex: 1;
+}
+
+.game-lowerbox-text h2 {
+  padding-bottom: 2.5rem;
+  letter-spacing: -3%;
+}
+
+.game-lowerbox-text h3 {
+  letter-spacing: -5%;
+}
+
+.game-lowerbox-text p {
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
+}
+
+.additional-downloads {
+  color: var(--second-color);
+  font-size: 1.25rem;
+}
+
+.additional-downloads a,
+.download-button {
+  color: var(--second-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.additional-downloads a:visited,
+.download-button:visited {
+  color: var(--second-color);
+}
+
+.additional-downloads a:hover,
+.download-button:hover {
+  color: var(--white-color);
+  text-decoration: underline;
+}
+
+.Teammembers {
+  color: var(--second-color);
+  font-size: 1.25rem;
+}
+
+/* ADDED: PHONE COMPATIBILITY ONLY */
+@media (max-width: 1000px) {
+  .game-name {
+    text-align: center;
+  }
+
+  .game-name h2 {
+    font-size: 2.5rem;
+  }
+
+  .game-upperbox,
+  .game-lowerbox {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+
+  .game-upperbox-text h3,
+  .game-upperbox-text p,
+  .game-lowerbox-text h3,
+  .game-lowerbox-text p {
+    padding-left: 0;
+  }
+
+  .game-upperbox img,
+  .game-lowerbox img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-right: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .game-lowerbox-text {
+    text-align: center;
+  }
+
+  .game-lowerbox-text h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,194 @@
+:root {
+  --primary-color: #e08367;
+  --black-color: #161616;
+  --white-color: #eeeeee;
+  --second-color: #ffe28a;
+  --socialMediaPictures-size: 12%;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--black-color);
+}
+
+.aboutMe {
+  margin-top: 8%;
+  margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.side {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 5rem;
+}
+
+.aboutMe button {
+  color: var(--black-color);
+  background-image: url("../IMAGES/Button.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 200%;
+  padding: 3% 2%;
+  padding-left: 5%;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+  width: 80%;
+  text-align: center;
+  transition: background-image 1s ease-in-out, margin-left 0.3s ease-in-out;
+}
+
+.aboutMe button:hover {
+  background-image: url("../IMAGES/ButtonOnHover.png");
+  margin-left: 1%;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.aboutMe h1 {
+  font-size: 400%;
+  font-family: "Press Start 2P", sans-serif;
+  word-spacing: -30%;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.aboutMe p {
+  font-family: "Poppins", sans-serif;
+  font-size: 200%;
+  color: var(--primary-color);
+}
+
+.WindmillVideo {
+  width: 60rem;
+  max-width: 100%;     /* ensure it scales on small screens [web:9] */
+  height: auto;        /* keep aspect ratio [web:9] */
+  object-fit: cover;
+  margin-right: 5rem;
+}
+
+.Work {
+  padding-top: 5%;
+  font-family: "Poppins", sans-serif;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-image: url("../IMAGES/Background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--white-color);
+  margin-bottom: 2rem;
+}
+
+.Work h1 {
+  font-family: "Press Start 2P", sans-serif;
+  color: var(--primary-color);
+  letter-spacing: -5%;
+  font-size: 2rem;
+}
+
+.SeeMoreButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6.25rem;
+  padding-bottom: 3.75rem;
+}
+
+.SeeMoreButton button {
+  margin-top: 0;
+  padding: 1rem 2rem;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 2rem;
+  color: var(--black-color);
+  border: none;
+  cursor: pointer;
+  letter-spacing: -10%;
+  background-image: url("../IMAGES/Button3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 1s ease-in-out, margin-top 0.3s ease-in-out;
+}
+
+.SeeMoreButton button:hover {
+  background-image: url("../IMAGES/Button3Hover.png");
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  margin-top: 0.25rem;
+  padding: 1.25rem 2.25rem;
+}
+
+/* PHONE / SMALL SCREEN */
+@media (max-width: 1000px) {
+  .aboutMe {
+    margin-top: 3rem;
+  }
+
+  .side {
+    margin-top: 4%;
+    display: block;
+    text-align: center;          /* center inline content */
+  }
+
+  .text-content {
+    margin-left: 0;
+    align-items: center;         /* center flex children horizontally [web:2] */
+  }
+
+  .aboutMe h1 {
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .aboutMe p {
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .aboutMe button {
+    align-self: center;          /* center button in column */
+    font-size: 150%;
+    padding: 3% 2%;
+    padding-left: 5%;
+    width: 60%;                  /* bigger but still proportional */
+    height: auto;
+  }
+
+  .side img,
+  .WindmillVideo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 4rem auto 0;
+    display: block;
+  }
+}

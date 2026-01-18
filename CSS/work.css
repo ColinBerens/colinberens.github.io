@@ -1,0 +1,344 @@
+:root {
+  --primary-color: #6fcb9f;
+  --black-color: #161616;
+  --white-color: #eeeeee;
+  --second-color: #ffe28a;
+}
+
+* h2 {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+img {
+  image-rendering: optimizeSpeed;
+}
+
+.Work {
+  padding-bottom: 7rem;
+  margin-bottom: -10rem;
+}
+
+.all3Dprojects a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+  padding-right: 3.75rem;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
+}
+
+.ThreeDprojects h2 {
+  margin-top: 4rem;
+  letter-spacing: -3%;
+}
+
+.ThreeDprojects h3 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+.ThreeDprojects p {
+  margin-top: 0.75rem;
+}
+
+.all3Dprojects {
+  background-color: var(--black-color);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3.75rem;
+}
+
+.twoDConcepts-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3.75rem;
+  background-color: var(--second-color);
+  color: var(--black-color);
+}
+
+.twoDConcepts h2 {
+  margin-top: 4rem;
+  letter-spacing: -3%;
+}
+
+.twoDConcepts h3 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+.twoDConcepts p {
+  margin-top: 0.75rem;
+}
+
+.smallfarm {
+  display: flex;
+  gap: 4rem;
+}
+
+.smallfarm img {
+  width: 60rem;
+  height: auto;
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.Artisan {
+  display: flex;
+  gap: 4rem;
+}
+
+.Artisan img {
+  width: 60rem;
+  height: auto;
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.Robuddy {
+  display: flex;
+}
+
+.Robuddy-text {
+  margin-left: 0rem;
+  margin-right: auto;
+}
+
+.Robuddy-content {
+  margin-right: 40rem;
+}
+
+.Robuddy video {
+  width: 57.5rem;
+  height: auto;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.MoustacheKart {
+  display: flex;
+  gap: 4rem;
+}
+
+.MoustacheKart-text {
+  margin-left: 0rem;
+  margin-right: auto;
+}
+
+.MoustacheKart-video video {
+  width: 57.5rem;
+  height: auto;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.MoustacheKart-video .sketchfab-embed-wrapper iframe {
+  width: 57.5rem;
+  height: 32.34rem;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.smallfarm .sketchfab-embed-wrapper iframe {
+  width: 57.5rem;
+  height: 32.34rem;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.Artisan .sketchfab-embed-wrapper iframe {
+  width: 57.5rem;
+  height: 32.34rem;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.UnityScene-text button {
+  color: var(--black-color);
+  background-image: url("../IMAGES/Button.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 140%;
+  border: none;
+  align-self: flex-start;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  transition: background-image 1s ease-in-out, margin-left 0.3s ease-in-out;
+  margin-top: 5%;
+}
+
+.UnityScene-text button:hover {
+  background-image: url("../IMAGES/ButtonOnHover.png");
+  margin-left: 1%;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.UnityScene {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.UnityScene-video video {
+  width: 57.5rem;
+  height: auto;
+  padding-top: 2.5rem;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.UnityScene-text {
+  margin-left: 0rem;
+  margin-right: auto;
+}
+
+.solarpunk {
+  display: flex;
+  gap: 12rem;
+}
+
+.solarpunk button {
+  margin-top: 6.5rem;
+  margin-bottom: 4rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border: none;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 200%;
+  background: none;
+}
+
+.solarpunk button:hover {
+  color: var(--primary-color);
+}
+
+.solarpunk-Images img {
+  width: 60rem;
+  height: auto;
+  padding-top: 2.5rem;
+  object-fit: contain;
+}
+
+.solarpunk-Images {
+  display: flex;
+}
+
+/* MOBILE ONLY - No desktop changes */
+@media (max-width: 1000px) {
+  #owngames {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .smallfarm,
+  .Artisan,
+  .Robuddy,
+  .MoustacheKart,
+  .solarpunk,
+  .UnityScene {
+    display: block;
+  }
+
+  .smallfarm img,
+  .Artisan img,
+  .Robuddy video,
+  .MoustacheKart video,
+  .solarpunk-Images img,
+  .UnityScene-video video {
+    display: block;
+    margin: 0 auto 1rem;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-right: 0;
+    padding-top: 1rem;
+  }
+
+  .MoustacheKart-video .sketchfab-embed-wrapper iframe,
+  .smallfarm .sketchfab-embed-wrapper iframe,
+  .Artisan .sketchfab-embed-wrapper iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 40vh;
+    margin: 0 auto 1rem;
+    display: block;
+    padding-right: 0;
+  }
+
+  #downbutton {
+    display: none;
+  }
+
+  .solarpunk-Images {
+    display: block;
+  }
+
+  #upbutton {
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--primary-color);
+    padding: 5% 47%;
+  }
+
+  #upbutton:hover {
+    background-color: var(--white-color);
+  }
+
+  .all3Dprojects,
+  .twoDConcepts-content {
+    padding-top: 1rem;
+  }
+
+  .UnityScene-text button {
+    width: 80%;
+    max-width: 300px;
+    height: 60px;
+    margin: 2rem auto 0;
+    display: block;
+  }
+  .UnityScene-text button:hover {
+    background-image: url("../IMAGES/ButtonOnHover.png");
+    width: 80%;
+    max-width: 300px;
+    height: 60px;
+    margin: 2rem auto 0;
+    display: block;
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+  }
+
+  .Robuddy-content {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1900px) {
+  .solarpunk-Images img {
+    width: 38rem;
+    height: auto;
+    padding-top: 2.5rem;
+    object-fit: contain;
+  }
+}

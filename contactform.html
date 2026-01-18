@@ -1,0 +1,65 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin Berens Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="CSS\contactform.css"> 
+</head>
+<body>
+    <p id="LetsConnect">Let’s Connect!<br>If you’d like to collaborate, chat, or just say hi, feel free to reach out!</p>
+    <div class="contact">
+    <div class="SocialMedia">
+      <h2>Social Medias</h2>
+      <div class="Instagram">
+        <img src="IMAGES\logos\sketchfab.png" alt="instalogo">
+        <div class="Instagram-content">
+          <h3>Sketchfab</h3>
+          <li><a href="https://sketchfab.com/ColinBerens"><i class="fas fa-external-link-alt"></i> Colin Berens</a></li>
+        </div>
+      </div>
+      <div class="LinkedIn">
+        <img src="IMAGES\logos\linkedin.png" alt="linkedinlogo">
+        <div class="LinkedIn-content">
+          <h3>LinkedIn</h3>
+          <li><a href="https://www.linkedin.com/in/colin-berens-1144942ba/"><i class="fas fa-external-link-alt"></i> Colin Berens</a></li>
+        </div>
+      </div>
+      <div class="Email">
+        <img src="IMAGES\logos\email.png" alt="emaillogo">
+        <div class="Email-content">
+          <h3>Email Address</h3>
+          <p>colin.berens@hotmail.com</p>
+        </div>
+      </div>
+      <div class="github">
+        <img src="IMAGES\logos\github.png" alt="githubimage">
+        <div class="github-content">
+          <h3>GitHub</h3>
+          <li><a href="https://github.com/ColinBerens"><i class="fas fa-external-link-alt"></i> Colin Berens</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="SendEmail">
+      <h2>Contact Form</h2>
+      <form action="PHP/sendEmail.php" method="POST">
+        <label for="singleLineInput">Enter your name:</label> <br>
+        <input type="name" id="singleLineInput" name="name" class="text-input" placeholder="Your name..." required><br>
+        <label for="emailInput">Enter your email:</label><br>
+        <input type="email" id="emailInput" name="email" class="text-input" placeholder="Your email..." required><br>
+        <label for="messageInput">Your message:</label><br>
+        <textarea id="message" name="message" class="text-input" placeholder="Write your message..." required></textarea><br>
+        <button type="submit">Send Email</button><br>
+        <label for="outcome" id="outcome"></label><br>
+      </form>
+    </div>
+  </div>
+</body>
