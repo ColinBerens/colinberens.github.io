@@ -1,54 +1,83 @@
 .game-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
 }
-body{
-    font-family: "Poppins", sans-serif;
+
+body {
+  font-family: "Poppins", sans-serif;
 }
+
 .game-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    background-color: var(--second-color);
-    padding: 10px;
-    margin: 10px;
-
-
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: var(--second-color);
+  padding: 10px;
+  margin: 10px;
 }
-  p{
-    font-size: 1.15rem;
-    line-height: 1.75rem;
-    letter-spacing: 3%;
-  }
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
+}
+
 .game-button:focus {
-    border: 0.25rem solid var(--primary-color);
+  border: 0.25rem solid var(--primary-color);
 }
 
 .thumbnail {
-    width: 25rem;
-    height: auto;
+  width: 25rem;
+  height: auto;
 }
 
 .title {
-    font-weight: bold;
-    color: var(--black-color);
-    font-size: 2.5rem;
-    font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: var(--black-color);
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .description {
-    color: var(--black-color);
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-
+  color: var(--black-color);
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .year {
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+/* ADDED: PHONE COMPATIBILITY ONLY */
+@media (max-width: 1000px) {
+  .game-button {
+    margin: 0.5rem;
+    padding: 8px;
+  }
+
+  .thumbnail {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description,
+  .year {
+    font-size: 1.2rem;
+  }
+
+  .game-list {
+    gap: 1rem;
+    justify-content: center;
+  }
 }
