@@ -52,5 +52,23 @@
             "image-02": "IMAGES/Fastnetic.png",
             "image-01": "IMAGES/Fastnetic-Character.png"
         }
+    },
+        {
+        "id": "Kuisje Huisje",
+        "game-name-h2": "Group Project: Kuisje Huisje",
+        "game-upperbox-text-h3": "About the game",
+        "game-upperbox-text-p": "Kuisje Huisje is a game made in cooperation with Veilig Huis (Flemish Institution concerning domestic violence). This game is made as a tool to gather information from children how they perceive their suroundings. This helps the psychologist to identify if the child gets abused and from who.",
+        "game-lowerbox-text-h3": "Gameplay",
+        "game-lowerbox-text-p": "The gameplay is that a child can play themselves in a magical medival world. There are 4 dimensions for 4 emotions(sad, angry, happy and scared). The child can add their close ones as animals to the game and give them a home in one of the worlds.",
+        "game-lowerbox-text-h3-02": "My role in the production",
+        "game-lowerbox-text-p-02": "My role was the one of the game designer but also as the texture artist. For game design I was not the only one coming up with ideas but I lead the creative process of finding an idea. After the idea was done and we went into production I unwrapped models and texterured them. At the later stages I was also at most playtests and gathered feedback for the game.",
+        "game-lowerbox-text-h3-03": "Teammembers",
+        "additional-downloads": "<b>Kobe Dereyne <br>Thalia Tritar <br>Sam Ferrari <br>Nathan Dhaene <br>Patrisija Purina</b>",
+        "DownloadText": "Visit Itch Page (No Download Link)",
+        "downloadlink": "https://ttritar.itch.io/kuisje-huisje",
+        "IMAGES": {
+            "image-01": "IMAGES/KuisjeHuisje_03.jpg",
+            "image-02": "IMAGES/KuisjeHuisje_01.png"
+        }
     }
 ]

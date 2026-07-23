@@ -227,6 +227,10 @@ p {
   background: none;
 }
 
+#downbutton {
+    transform: scale(-1);
+} 
+
 .solarpunk button:hover {
   color: var(--primary-color);
 }
