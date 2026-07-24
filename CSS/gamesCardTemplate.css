@@ -27,6 +27,13 @@ body{
     border: 0.25rem solid var(--primary-color);
 }
 
+.game-button:hover{
+    background-color: beige;
+    padding: 11px;
+    margin: 11px;
+
+}
+
 .thumbnail {
     width: 25rem;
     height: auto;
