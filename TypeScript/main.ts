@@ -115,6 +115,16 @@ function displayOutcomeMessage() {
     }
 }
 
+function JumpToSpecificPosition(namePostion: string) {
+
+    const element = document.getElementById(namePostion);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+
+    }
+
+}
+
 let imagesLoaded = false;
 
 function GetAllImages() {

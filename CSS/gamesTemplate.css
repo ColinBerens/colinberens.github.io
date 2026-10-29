@@ -1,3 +1,8 @@
+#gamesTemplate
+{
+  margin-top: 2rem;
+}
+
 .game-name {
   padding-top: 4%;
   color: var(--white-color);
@@ -43,12 +48,6 @@ p {
   letter-spacing: 3%;
 }
 
-.game-upperbox img {
-  width: 104%;
-  height: 2%;
-  padding-right: 2.75rem;
-}
-
 .game-lowerbox li {
   padding-bottom: 0.25rem;
   font-family: "Poppins", sans-serif;
@@ -80,10 +79,15 @@ p {
   background-repeat: no-repeat;
 }
 
+.game-upperbox img,
+.game-upperbox video,
+.game-upperbox iframe,
 .game-lowerbox img {
-  width: 55%;
-  height: 2%;
+  width: 50rem;
+  height: 30rem;
+  object-fit: contain;
   padding-right: 2.75rem;
+  flex-shrink: 0;
 }
 
 .game-lowerbox-text {
@@ -102,6 +106,7 @@ p {
 .game-lowerbox-text p {
   padding-top: 1.25rem;
   padding-bottom: 2.5rem;
+  margin-top: 0;
   line-height: 1.75rem;
   letter-spacing: 3%;
 }

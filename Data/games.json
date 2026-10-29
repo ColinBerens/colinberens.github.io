@@ -13,7 +13,7 @@
         "DownloadText": "Visit Download Page",
         "downloadlink": "https://colinberens.itch.io/twoleftjams",
         "IMAGES": {
-            "image-01": "IMAGES/Portfolio/main_Screen.png",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/og4pr7g1qrY?si=xzoundDpcHKXJl7N' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
             "image-02": "IMAGES/Portfolio/boom.png"
         }
     },
@@ -49,8 +49,8 @@
         "DownloadText": "Visit Download Page",
         "downloadlink": "https://colinberens.itch.io/fastnetic",
         "IMAGES": {
-            "image-02": "IMAGES/Fastnetic.png",
-            "image-01": "IMAGES/Fastnetic-Character.png"
+            "video": "<video class='GameplayVideo'  autoplay muted loop><source src='VIDEOS/Fastnetic_Trailer.mp4' type='video/mp4'>",
+            "image-02": "IMAGES/Fastnetic-Character.png"
         }
     },
         {
@@ -69,6 +69,25 @@
         "IMAGES": {
             "image-01": "IMAGES/KuisjeHuisje_03.jpg",
             "image-02": "IMAGES/KuisjeHuisje_01.png"
+        }
+    },
+        {
+        "id": "Planet Bee",
+        "game-name-h2": "Internship Project: Planet Bee",
+        "game-upperbox-text-h3": "About the game",
+        "game-upperbox-text-p": "<b>Planet Bee</b> is an upcoming game where you can play as a bee whose quest is to make the world green again. The world has been destroyed by mankind and everything has turned into a desert. You, the player, can now <b>find remaining flowers</b> and <b>pollinate the dead plants.</b>",
+        "game-lowerbox-text-h3": "My role",
+        "game-lowerbox-text-p": "My role was that of a <b>game designer</b> and a <b>technical designer.</b> The goal of my work was to improve the existing prototype, so the team could go to the next phase. Moreover, I also attended multiple playtest events to show off the game and gather meaningful opinions.",
+        "game-lowerbox-text-h3-02": "My tasks in the production",
+        "game-lowerbox-text-p-02": "My tasks were making a <b>new flying system, overhauling the collecting pollen system, tweaking the pollination system and adding new secondary mechanics.</b> <br>For each game design task, I analyzed other games how they tackled every system and then I came up with multiple ideas. I then tested each system with my colleagues or with playtesters from playtest events. The best ones were kept and improved on. Additionally I made sure that every mechanic has a good feeling when you perform it. This was to ensure the playtesters could enjoy the mechanic to it fullest and only criticise the mechanic itself. <br>For the coding tasks, I was working in an existing big code base. I used my knowledge to apply the SOLID principle for every script I wrote. Additionally I learned HLSL and deepened my knowledge of Unity events, interfaces and design patterns.",
+        "game-lowerbox-text-h3-03": "Company",
+        "additional-downloads": "<b>The Pack Studios (Brussels, Belgium)</b>",
+        "DownloadText": "Company Link",
+        "downloadlink": "https://www.thepack.studio/",
+        "downloadlinktext": "<i class='fas fa-external-link-alt'></i><b>Go To Website</b>",
+        "IMAGES": {
+            "video": "<video class='GameplayVideo'  autoplay muted loop><source src='VIDEOS/BeeVideo.mp4' type='video/mp4'>",
+            "image-02": "IMAGES/Planet_Bee_02.png"
         }
     }
 ]

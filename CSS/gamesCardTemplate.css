@@ -29,8 +29,8 @@ body{
 
 .game-button:hover{
     background-color: beige;
-    padding: 11px;
-    margin: 11px;
+    /* padding: 11px;
+    margin: 11px; */
 
 }
 
@@ -59,3 +59,5 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: bold;
 }
+
+

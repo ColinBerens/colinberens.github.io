@@ -85,8 +85,7 @@ function loadOwnGames() {
         if (ownGames) {
             ownGames.innerHTML = data;
         }
-    })
-        .catch(error => console.error('Error loading own games:', error));
+    }).catch(error => console.error('Error loading own games:', error));
 }
 function displayOutcomeMessage() {
     const urlParams = new URLSearchParams(window.location.search);
@@ -101,6 +100,12 @@ function displayOutcomeMessage() {
             outcomeLabel.textContent = "There was an error sending your message. Please try again.";
             outcomeLabel.style.color = "red";
         }
+    }
+}
+function JumpToSpecificPosition(namePostion) {
+    const element = document.getElementById(namePostion);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
     }
 }
 let imagesLoaded = false;

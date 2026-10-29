@@ -30,16 +30,18 @@ async function loadTemplate(url: string): Promise<HTMLTemplateElement | null> {
 async function renderGames() {
     const template = await loadTemplate('gamesCardTemplate.html');
     if (!template) return;
-    
+
     const container = document.getElementById('game-list');
     if (!container) return;
 
     const stylecontainer = document.getElementById('game-list-style');
     if (!stylecontainer) return;
-  
+
     stylecontainer.innerHTML = '<link rel="stylesheet" href="CSS/gamesCardTemplate.css"> \n <link rel="stylesheet" href="CSS/gamesTemplate.css">';
 
     const games: Game[] = [
+        { id: 'Planet Bee', thumbnail: 'IMAGES/Planet_Bee_Thumbnail.png', title: 'Planet Bee', description: 'Cozy Post-Apocalyptic Game', year: 2026 },
+        { id: 'Kuisje Huisje', thumbnail: 'IMAGES/KuisjeHuisje_02.jpg', title: 'Kuisje Huisje', description: 'Psychological Tool', year: 2025 },
         { id: 'Fastnetic', thumbnail: 'IMAGES/Portfolio/FastneticInGame.png', title: 'Fastnetic', description: 'Fast-Paced Platformer', year: 2025 },
         { id: 'TwoLeftJams', thumbnail: 'IMAGES/Portfolio/boom.png', title: 'Two Left Jams', description: 'Award Winning Coop Game', year: 2025 },
         { id: 'Slother', thumbnail: 'IMAGES/SnH+uH.png', title: 'Slother', description: 'Tower-Defence Game', year: 2024 }
@@ -73,7 +75,7 @@ async function renderGames() {
 async function loadGameDetails(gameId: string) {
     const gameListContainer = document.getElementById('game-list');
     const detailsContainer = document.getElementById('gamesTemplate');
-    
+
     if (!detailsContainer) {
         console.error('gamesTemplate container not found');
         return;
@@ -83,7 +85,7 @@ async function loadGameDetails(gameId: string) {
         // Load game data
         const res = await fetch("Data/games.json");
         if (!res.ok) throw new Error('Failed to load games.json');
-        
+
         const games: any[] = await res.json();
         const game = games.find((g: any) => g.id === gameId);
 
@@ -118,13 +120,12 @@ async function loadGameDetails(gameId: string) {
             const h3Elements = lowerBoxText.querySelectorAll("h3");
             const pElements = lowerBoxText.querySelectorAll("p");
 
-            if (h3Elements[0]) h3Elements[0].textContent = game["game-lowerbox-text-h3"];
-            if (pElements[0]) pElements[0].textContent = game["game-lowerbox-text-p"];
-            if (h3Elements[1]) h3Elements[1].textContent = game["game-lowerbox-text-h3-02"];
-            if (pElements[1]) pElements[1].textContent = game["game-lowerbox-text-p-02"];
-            if (h3Elements[2]) h3Elements[2].textContent = game["game-lowerbox-text-h3-teammembers"];
-            if (game["Teammembers"] != null && game["Teammembers"] != undefined) 
-            {
+            if (h3Elements[0]) h3Elements[0].innerHTML = game["game-lowerbox-text-h3"];
+            if (pElements[0]) pElements[0].innerHTML = game["game-lowerbox-text-p"];
+            if (h3Elements[1]) h3Elements[1].innerHTML = game["game-lowerbox-text-h3-02"];
+            if (pElements[1]) pElements[1].innerHTML = game["game-lowerbox-text-p-02"];
+            if (h3Elements[2]) h3Elements[2].innerHTML = game["game-lowerbox-text-h3-teammembers"];
+            if (game["Teammembers"] != null && game["Teammembers"] != undefined) {
                 if (pElements[2]) pElements[2].innerHTML = game["Teammembers"]; // Plain text
             }
             else {
@@ -135,9 +136,14 @@ async function loadGameDetails(gameId: string) {
             const downloadLinkContainer = clone.querySelector("#downloadlink");
             if (downloadLinkContainer) {
                 const downloadLink = downloadLinkContainer.querySelector("a") as HTMLAnchorElement;
-                if (downloadLink && game["downloadlink"]) {
+                if (downloadLink && game["downloadlinktext"] && game["downloadlink"]) {
                     downloadLink.href = game["downloadlink"];
-                } else if (!game["downloadlink"]) {
+                    downloadLink.innerHTML = game["downloadlinktext"];
+                }
+                else if (downloadLink && game["downloadlink"]) {
+                    downloadLink.href = game["downloadlink"];
+                }
+                else if (!game["downloadlink"]) {
                     (downloadLinkContainer as HTMLElement).style.display = "none";
                 }
             }
@@ -165,11 +171,19 @@ async function loadGameDetails(gameId: string) {
             }
         }
 
-        // Images
+        // Images && Videos
+
+
         const mainImage = clone.querySelector("#game-upperbox img") as HTMLImageElement;
         const gameplayImage = clone.querySelector("#game-lowerbox img") as HTMLImageElement;
-        if (mainImage && game.IMAGES) mainImage.src = game.IMAGES["image-01"];
-        if (gameplayImage && game.IMAGES) gameplayImage.src = game.IMAGES["image-02"];
+        if (game.IMAGES["video"]) {
+            if (mainImage && game.IMAGES) mainImage.outerHTML = game.IMAGES["video"];
+            if (gameplayImage && game.IMAGES) gameplayImage.src = game.IMAGES["image-02"];
+        }
+        else {
+            if (mainImage && game.IMAGES) mainImage.src = game.IMAGES["image-01"];
+            if (gameplayImage && game.IMAGES) gameplayImage.src = game.IMAGES["image-02"];
+        }
 
         // Clear and append to correct container
         detailsContainer.innerHTML = '';
@@ -185,10 +199,10 @@ async function loadGameDetails(gameId: string) {
 function showGameList() {
     const gameListContainer = document.getElementById('game-list');
     const detailsContainer = document.getElementById('gamesTemplate');
-    
+
     if (gameListContainer) gameListContainer.style.display = 'block';
     if (detailsContainer) detailsContainer.style.display = 'none';
-    
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
