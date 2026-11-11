@@ -31,23 +31,23 @@
     padding-bottom:  2.5rem;
   
   }
-  .Instagram{
+  .Sketchfab{
     display: flex;
     gap: 2.5rem;
   }
-  .Instagram img{
+  .Sketchfab img{
     width: var(--socialMediaPictures-size); /* Adjust as needed for balance */
     height: auto;
     padding-left: 2rem;
     object-fit: contain;
   }
-  .Instagram-content p{
+  .Sketchfab-content p{
     padding-top: 0.25rem;
   }
-  .Instagram-content li{
+  .Sketchfab-content li{
     padding-top: 0.25rem;
   }
-  .Instagram-content li a{
+  .Sketchfab-content li a{
     color: var(--primary-color);
     text-decoration: none; /* Remove underline if desired */
     transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;

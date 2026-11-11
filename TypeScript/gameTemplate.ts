@@ -40,11 +40,11 @@ async function renderGames() {
     stylecontainer.innerHTML = '<link rel="stylesheet" href="CSS/gamesCardTemplate.css"> \n <link rel="stylesheet" href="CSS/gamesDescriptionTemplate.css">';
 
     const games: Game[] = [
-        { id: 'Planet Bee', thumbnail: 'IMAGES/Planet_Bee_Thumbnail.png', title: 'Planet Bee', description: 'Cozy Post-Apocalyptic Game', year: 2026 },
-        { id: 'Kuisje Huisje', thumbnail: 'IMAGES/KuisjeHuisje_02.jpg', title: 'Kuisje Huisje', description: 'Psychological Tool', year: 2025 },
-        { id: 'Fastnetic', thumbnail: 'IMAGES/Portfolio/FastneticInGame.png', title: 'Fastnetic', description: 'Fast-Paced Platformer', year: 2025 },
-        { id: 'TwoLeftJams', thumbnail: 'IMAGES/Portfolio/boom.png', title: 'Two Left Jams', description: 'Award Winning Coop Game', year: 2025 },
-        { id: 'Slother', thumbnail: 'IMAGES/SnH+uH.png', title: 'Slother', description: 'Tower-Defence Game', year: 2024 }
+        { id: 'Planet Bee', thumbnail: 'IMAGES/PlanetBee/Planet_Bee_Thumbnail.png', title: 'Planet Bee', description: 'Cozy Post-Apocalyptic Game', year: 2026 },
+        { id: 'Kuisje Huisje', thumbnail: 'IMAGES/KuisjeHuisje/KuisjeHuisje_02.jpg', title: 'Kuisje Huisje', description: 'Psychological Tool', year: 2025 },
+        { id: 'Fastnetic', thumbnail: 'IMAGES/Fastnetic/FastneticInGame.png', title: 'Fastnetic', description: 'Fast-Paced Platformer', year: 2025 },
+        { id: 'TwoLeftJams', thumbnail: 'IMAGES/TwoLeftJams/TwoLeftJams_Gameplay.png', title: 'Two Left Jams', description: 'Award Winning Coop Game', year: 2025 },
+        { id: 'Slother', thumbnail: 'IMAGES/Slother/Slother_Gameplay.png', title: 'Slother', description: 'Tower-Defence Game', year: 2024 }
     ];
 
     games.forEach(game => {

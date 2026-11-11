@@ -14,7 +14,7 @@
         "downloadlink": "https://colinberens.itch.io/twoleftjams",
         "IMAGES": {
             "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/og4pr7g1qrY?si=xzoundDpcHKXJl7N' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>",
-            "image-02": "IMAGES/Portfolio/boom.png"
+            "image-02": "IMAGES/TwoLeftJams/TwoLeftJams_Logo.png"
         }
     },
     {
@@ -31,8 +31,8 @@
         "DownloadText": "Visit Download Page",
         "downloadlink": "https://moonipuss.itch.io/slother",
         "IMAGES": {
-            "image-01": "IMAGES/Sprite/sprite.png",
-            "image-02": "IMAGES/SnH+uH.png"
+            "image-01": "IMAGES/Slother/Slother_Sprite.png",
+            "image-02": "IMAGES/Slother/Slother_Gameplay.png"
         }
     },
     {
@@ -50,7 +50,7 @@
         "downloadlink": "https://colinberens.itch.io/fastnetic",
         "IMAGES": {
             "video": "<video class='GameplayVideo'  autoplay muted loop><source src='VIDEOS/Fastnetic_Trailer.mp4' type='video/mp4'>",
-            "image-02": "IMAGES/Fastnetic-Character.png"
+            "image-02": "IMAGES/Fastnetic/Fastnetic-Character.png"
         }
     },
         {
@@ -67,8 +67,8 @@
         "DownloadText": "Visit Itch Page (No Download Link)",
         "downloadlink": "https://ttritar.itch.io/kuisje-huisje",
         "IMAGES": {
-            "image-01": "IMAGES/KuisjeHuisje_03.jpg",
-            "image-02": "IMAGES/KuisjeHuisje_01.png"
+            "image-01": "IMAGES/KuisjeHuisje/KuisjeHuisje_03.jpg",
+            "image-02": "IMAGES/KuisjeHuisje/KuisjeHuisje_01.png"
         }
     },
         {
@@ -87,7 +87,7 @@
         "downloadlinktext": "<i class='fas fa-external-link-alt'></i><b>Go To Website</b>",
         "IMAGES": {
             "video": "<video class='GameplayVideo'  autoplay muted loop><source src='VIDEOS/BeeVideo.mp4' type='video/mp4'>",
-            "image-02": "IMAGES/Planet_Bee_02.png"
+            "image-02": "IMAGES/PlanetBee/Planet_Bee_02.png"
         }
     }
 ]
