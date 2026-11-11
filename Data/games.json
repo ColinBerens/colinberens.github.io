@@ -45,7 +45,7 @@
         "game-lowerbox-text-h3-02": "Production Process",
         "game-lowerbox-text-p-02": "The game was made by using the Unity 2D engine. I used pre rendered sprites by modeling in Blender. I made simple textures in Substance Painter. Additionaly the animations are also made in Blender ",
         "game-lowerbox-text-h3-03": "Download Game Design Document",
-        "additional-downloads": "<a href='example.pdf' download class='download-btn'><a href='DOWNLOADABLE/GameDesignDocument.pdf' download='GameDesignDocument.pdf' class='download-button'><i class='fas fa-download'></i><b>Download GGD</b></a>",
+        "additional-downloads": "<a href='example.pdf' download class='download-btn'><a href='DOWNLOADABLE/Fastnetic_GameDesignDocument.pdf' download='Fastnetic_GameDesignDocument.pdf' class='download-button'><i class='fas fa-download'></i><b>Download GDD</b></a> <br> <a href='example.pdf' download class='download-btn'><a href='DOWNLOADABLE/Fastnetic_Brainstorm.pdf' download='Fastnetic_Brainstorm.pdf' class='download-button'><i class='fas fa-download'></i><b>Download Brainstorm</b></a>",
         "DownloadText": "Visit Download Page",
         "downloadlink": "https://colinberens.itch.io/fastnetic",
         "IMAGES": {

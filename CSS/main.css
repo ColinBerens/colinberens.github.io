@@ -6,16 +6,17 @@
   --socialMediaPictures-size: 12%;
 }
 
-p {
-  font-size: 1.15rem;
-  line-height: 1.75rem;
-  letter-spacing: 3%;
-}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.75rem;
+  letter-spacing: 3%;
 }
 
 body {
@@ -94,7 +95,7 @@ body {
   margin-right: 5rem;
 }
 
-.Work {
+.MyGames {
   padding-top: 5%;
   font-family: "Poppins", sans-serif;
   padding-left: 8%;
@@ -107,7 +108,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.Work h1 {
+.MyGames h1 {
   font-family: "Press Start 2P", sans-serif;
   color: var(--primary-color);
   letter-spacing: -5%;

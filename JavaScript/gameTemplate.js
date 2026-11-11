@@ -28,7 +28,7 @@ async function renderGames() {
     const stylecontainer = document.getElementById('game-list-style');
     if (!stylecontainer)
         return;
-    stylecontainer.innerHTML = '<link rel="stylesheet" href="CSS/gamesCardTemplate.css"> \n <link rel="stylesheet" href="CSS/gamesTemplate.css">';
+    stylecontainer.innerHTML = '<link rel="stylesheet" href="CSS/gamesCardTemplate.css"> \n <link rel="stylesheet" href="CSS/gamesDescriptionTemplate.css">';
     const games = [
         { id: 'Planet Bee', thumbnail: 'IMAGES/Planet_Bee_Thumbnail.png', title: 'Planet Bee', description: 'Cozy Post-Apocalyptic Game', year: 2026 },
         { id: 'Kuisje Huisje', thumbnail: 'IMAGES/KuisjeHuisje_02.jpg', title: 'Kuisje Huisje', description: 'Psychological Tool', year: 2025 },
@@ -80,7 +80,7 @@ async function loadGameDetails(gameId) {
             return;
         }
         // Load template
-        const template = await loadTemplate('gamesTemplate.html');
+        const template = await loadTemplate('gamesDescriptionTemplate.html');
         if (!template) {
             detailsContainer.innerHTML = "<h2>Failed to load template</h2>";
             return;

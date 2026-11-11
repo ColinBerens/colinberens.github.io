@@ -1,8 +1,3 @@
-:root {
-    --primary-color: #6fcb9f;
-    --black-color: #161616;
-    --white-color: #eeeeee;
-  }
 .navbar {
     position: fixed;
     top: 0;
